@@ -1,0 +1,48 @@
+{
+  "config": {
+    "title": "Quiz de Programación Web",
+    "autocorrect": false,
+    "showCorrect": true,
+    "onePage": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué significa HTML?",
+      "options": [
+        "HyperText Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Qué lenguaje se usa para dar estilo a una web?",
+      "options": ["Python", "CSS", "Java", "PHP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de estos es un framework de JavaScript?",
+      "options": ["Laravel", "Django", "React", "Rails"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es un API?",
+      "options": [
+        "Application Programming Interface",
+        "Automated Programming Interface",
+        "Advanced Programming Interface"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál de estos es un sistema de control de versiones?",
+      "options": ["Git", "Docker", "Kubernetes", "Jenkins"],
+      "correctAnswer": 0
+    }
+  ]
+}

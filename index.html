@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargador de Quiz Dinámico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 id="quiz-title">Cargando Quiz...</h1>
+        <div id="quiz-content"></div>
+        <div id="pagination-controls" class="pagination hidden">
+            <button id="prev-btn" disabled>Anterior</button>
+            <span id="page-indicator">Pregunta 1 de X</span>
+            <button id="next-btn">Siguiente</button>
+        </div>
+        <div class="actions">
+            <button id="submit-btn" class="btn-submit">Finalizar y Verificar Quiz</button>
+        </div>
+        <div id="result-container" class="result hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
