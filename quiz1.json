@@ -1,7 +1,7 @@
 {
   "config": {
     "title": "Quiz de Programación Web",
-    "autocorrect": false,
+    "autocorrect": true,
     "showCorrect": true,
     "onePage": true
   },

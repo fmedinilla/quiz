@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cargador de Quiz Dinámico</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="quiz-container">
+        <div class="quiz-selector-container">
+            <label for="quiz-selector">Selecciona un cuestionario:</label>
+            <select id="quiz-selector">
+                <option value="quiz1.json">Quiz 1: Programación Web</option>
+                <option value="quiz2.json">Quiz 2: Cultura General</option>
+                <option value="quiz3.json">Quiz 3: Medicina y Salud</option>
+            </select>
+        </div>
+
         <h1 id="quiz-title">Cargando Quiz...</h1>
         <div id="quiz-content"></div>
         <div id="pagination-controls" class="pagination hidden">
@@ -23,4 +34,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,22 @@
+{
+  "config": {
+    "title": "Quiz 3: Medicina y Salud",
+    "autocorrect": true,
+    "showCorrect": false,
+    "onePage": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cual es el órgano más grande del cuerpo humano?",
+      "options": ["Hígado", "Corazón", "Pulmón"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "¿En qué año se descubrió la penicilina?",
+      "options": ["1928", "1935", "1941", "1910"],
+      "correctAnswer": 0
+    }
+  ]
+}

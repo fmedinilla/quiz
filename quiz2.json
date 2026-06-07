@@ -1,0 +1,22 @@
+{
+  "config": {
+    "title": "Quiz 2: Cultura General",
+    "autocorrect": false,
+    "showCorrect": true,
+    "onePage": false
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál es el océano más grande del mundo?",
+      "options": ["Océano Atlántico", "Océano Índico", "Océano Pacífico"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "¿En qué año llegó el ser humano a la Luna?",
+      "options": ["1965", "1969", "1972", "1959"],
+      "correctAnswer": 1
+    }
+  ]
+}
